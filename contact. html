@@ -2,32 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact Us | FurtherLearning</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Contact - FurtherLearning</title>
 </head>
 <body>
-  <header>
-    <h1>FurtherLearning</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="login.html">Login</a>
-      <a href="courses.html">Courses</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  <h1>Contact Us</h1>
+  <p>If you have questions about cloud computing, AWS, or your journey with FurtherLearning, feel free to reach out!</p>
+  
+  <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
 
-  <main>
-    <h2>Contact Us</h2>
-    <form>
-      <p><input type="text" placeholder="Your Name" required></p>
-      <p><input type="email" placeholder="Your Email" required></p>
-      <p><textarea placeholder="Your Message" rows="5" required></textarea></p>
-      <p><button type="submit">Send Message</button></p>
-    </form>
-  </main>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
 
-  <footer>
-    <p>&copy; 2025 FurtherLearning. All rights reserved.</p>
-  </footer>
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message"></textarea><br><br>
+
+    <input type="submit" value="Send">
+  </form>
+
+  <p><a href="index.html">Back to Home</a></p>
 </body>
 </html>
+
