@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | FurtherLearning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FurtherLearning</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <form>
+      <p><input type="text" placeholder="Your Name" required></p>
+      <p><input type="email" placeholder="Your Email" required></p>
+      <p><textarea placeholder="Your Message" rows="5" required></textarea></p>
+      <p><button type="submit">Send Message</button></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FurtherLearning. All rights reserved.</p>
+  </footer>
+</body>
+</html>
