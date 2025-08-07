@@ -1,2 +1,16 @@
-# miniature-invention
-This project demonstrates a basic virtual server built with Node.js to handle HTTP requests, simulating how cloud servers work. It helps understand cloud hosting, server setup, and backend logic. Git and GitHub are used for version control. It’s part of my beginner cloud learning journey.
+# ☁️ FurtherLearning
+
+**FurtherLearning** is a beginner-friendly cloud computing project by Fizza Abdul Razzaq. It represents a virtual learning platform that helps users start their journey into cloud tech.
+
+## 🚀 Features
+- Simple HTML/CSS-based website
+- Clean responsive layout
+- Hosted on GitHub Pages (cloud-based)
+
+## 📚 Coming Soon
+- Interactive modules
+- Project showcase
+- Certification tracker
+
+Stay tuned!
+
