@@ -1,27 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>FurtherLearning</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>☁️ FurtherLearning</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    /* Navbar Styling */
+    .navbar {
+      background-color: #004080;
+      padding: 10px 0;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .navbar li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #ffcc00;
+    }
+
+    /* Main Content */
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #e0f7fa, #f1f8ff);
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      color: #004080;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .hero a.button {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #004080;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .hero a.button:hover {
+      background-color: #00264d;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #004080;
+      color: white;
+      margin-top: 80px;
+    }
+  </style>
 </head>
 <body>
-  <header>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
     <h1>☁️ FurtherLearning</h1>
-    <p>A simple cloud-based learning platform project</p>
-  </header>
+    <p>Explore cloud computing fundamentals, projects, and certifications.<br>Start your journey with confidence!</p>
+    <a href="about.html" class="button">Get Started</a>
+  </section>
 
-  <main>
-    <section class="intro">
-      <h2>Welcome to the Cloud</h2>
-      <p>Explore cloud computing fundamentals, projects, and certifications. Start your journey with confidence!</p>
-      <a href="#">Get Started</a>
-    </section>
-  </main>
-
+  <!-- Footer -->
   <footer>
-    <p>© 2025 FurtherLearning by Fizza Abdul Razzaq</p>
+    © 2025 FurtherLearning by Fizza Abdul Razzaq
   </footer>
+
 </body>
 </html>
-
