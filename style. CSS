@@ -1,42 +1,40 @@
-/* style.css */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff; /* Light blue background */
-  color: #333;
-  margin: 0;
-  padding: 0;
+
+/* General page background for all pages except home */
+body:not(.home-page) {
+    background-color: #f4f8ff; /* Soft white-blue background */
+    color: #222; /* Text color */
 }
 
-header, nav {
-  background-color: #004080; /* Deep blue */
-  color: white;
-  padding: 15px;
-  text-align: center;
+/* Navigation bar styling */
+nav {
+    background-color: #004080; /* Deep blue */
+    color: white;
 }
 
 nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
 }
 
 nav a:hover {
-  color: #ffcc00; /* Yellow on hover */
+    background-color: #0066cc; /* Brighter blue on hover */
 }
 
-main, section {
-  padding: 20px;
+/* Headings */
+h1, h2, h3 {
+    color: #004080;
 }
 
-h1, h2 {
-  color: #004080;
+/* Buttons */
+button, .btn {
+    background-color: #004080;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
 }
 
-footer {
-  background-color: #004080;
-  color: white;
-  text-align: center;
-  padding: 10px;
+button:hover, .btn:hover {
+    background-color: #0066cc;
 }
-
